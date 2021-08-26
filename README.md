@@ -10,15 +10,26 @@ After you clone this repo to your desktop, go to its root directory and run npm 
 Once the dependencies are installed, you can run npm start to start the application. You will then be able to access it at localhost:3000
 
 Features
-Game depends on action points.
-You can view the life in real time.
-The log informs us about the current course of the fight.
-We have several types of skills to use, e.g. attack, special attack or utilities.
-Skills may have additional effects, e.g. bleeding or healing the caster for a certain number of turns.
 
+Attack – The Player attacks the Covid Monster for a random value and
+simultaneously the player will get infected by Covid. The health reduces by the
+random value not more than 10 for both opponents.
+
+Power Attack – The Player launches a power attack on the Covid Monster and
+simultaneously is prone to a power infections on his/her health.
+
+Healing Potion – The Player’s health is increased by a random value. However
+during healing, the player will infected at random number by Covid Monster too.
+
+Surrender – You give up as the Covid Monster is too strong for you and the
+player is taken to the Start Game Screen.
 
 Backend 
 
 Technology
 
 CakePhp
+React
+Redux
+Html 
+Css
